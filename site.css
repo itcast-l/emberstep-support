@@ -1,0 +1,16 @@
+:root {
+  color-scheme: dark;
+  background: #111817;
+  color: #e1d9c5;
+  font: 17px/1.65 system-ui, sans-serif;
+}
+body { margin: 0; }
+main { max-width: 44rem; margin: auto; padding: clamp(1.15rem, 5vw, 3rem); }
+header { border-bottom: 2px solid #997345; padding-bottom: 1.4rem; }
+h1, h2 { color: #f6e2ae; line-height: 1.2; }
+h1 { font: 700 clamp(2rem, 7vw, 3.4rem)/1.08 Georgia, serif; margin-bottom: .4rem; }
+h2 { font-size: 1.18rem; margin-top: 1.6rem; }
+header p { color: #b7c3b6; margin: 0; }
+section[lang] { border-top: 1px solid #5b6457; margin-top: 2rem; }
+a { color: #9be2cb; text-underline-offset: .18em; }
+a:focus-visible { outline: 2px solid #f6e2ae; outline-offset: .17em; }
